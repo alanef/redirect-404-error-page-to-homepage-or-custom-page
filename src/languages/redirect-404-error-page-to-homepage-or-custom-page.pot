@@ -13,116 +13,196 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/redirect-404-error-page-to-homepage-or-custom-page.php:85
+#: src/redirect-404-error-page-to-homepage-or-custom-page.php:82
 msgid "Cannot execute as the plugin already exists, if you have another version installed deactivate that and try again"
 msgstr ""
 
-#: src/admin/class-admin-pages.php:84
+#: src/admin/class-admin-pages.php:82
 msgid "Are you sure want to do this?"
 msgstr ""
 
-#: src/admin/class-admin-pages.php:195
+#: src/admin/class-admin-pages.php:193
 msgid "Save Options"
 msgstr ""
 
-#: src/admin/class-admin-pages.php:224
+#: src/admin/class-admin-pages.php:222
 msgid "Save"
 msgstr ""
 
-#: src/admin/class-admin-pages.php:240
+#: src/admin/class-admin-pages.php:238
 msgid "Settings reset to defaults."
 msgstr ""
 
-#: src/admin/class-admin-settings.php:35
+#: src/admin/class-admin-settings.php:36
 msgid "Redirect 404"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:102
+#: src/admin/class-admin-settings.php:111
 msgid "Information"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:110
+#: src/admin/class-admin-settings.php:119
 msgid "Redirect Settings"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:118
+#: src/admin/class-admin-settings.php:127
 msgid "404 Log Settings"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:133
+#: src/admin/class-admin-settings.php:143
 msgid "Welcome"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:137
+#: src/admin/class-admin-settings.php:147
 msgid "This plugin can be configured to redirect missing pages (404) to either the home page or a custom page as required"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:140
+#: src/admin/class-admin-settings.php:150
 msgid "This is very useful if your site has been undergoing changes and Google still have pages that have gone in the index, this way you visitors will not get the standard 404 page, and educate Google that the missing pages are now the home page or custom page as required."
 msgstr ""
 
-#: src/admin/class-admin-settings.php:143
+#: src/admin/class-admin-settings.php:153
 msgid "Or, if you have an ugly 404 page, you can now add a page as a custom error page and set the return code to 404 instead."
 msgstr ""
 
-#: src/admin/class-admin-settings.php:147
+#: src/admin/class-admin-settings.php:157
 msgid "If you turn on logging below - your 404 logs are %shere%s"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:153
-msgid "Support"
-msgstr ""
-
-#: src/admin/class-admin-settings.php:156
-msgid "WordPress.org support forum"
-msgstr ""
-
-#: src/admin/class-admin-settings.php:169
+#: src/admin/class-admin-settings.php:172
 msgid "Cant set home page to return a 404 code that would be a bad idea"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:198
+#: src/admin/class-admin-settings.php:201
 msgid "Redirect to"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:208
+#: src/admin/class-admin-settings.php:211
 msgid " Page"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:212
+#: src/admin/class-admin-settings.php:215
 msgid "Redirect Type"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:222
+#: src/admin/class-admin-settings.php:225
 msgid "Only use 404 if you have written a custom page specifically for 404s. If you need more info on 301 vs 302 redirect, read the %s SEO blog %s article."
 msgstr ""
 
-#: src/admin/class-admin-settings.php:244
+#: src/admin/class-admin-settings.php:247
 msgid "Log"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:252
+#: src/admin/class-admin-settings.php:255
 msgid "Enable logging of 404 errors"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:257
+#: src/admin/class-admin-settings.php:260
 msgid "Do not redirect"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:266
+#: src/admin/class-admin-settings.php:269
 msgid "Tick this if you want the plugin redirect settings to be IGNORED, any only log 404s"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:271
+#: src/admin/class-admin-settings.php:274
 msgid "Log history"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:281
+#: src/admin/class-admin-settings.php:284
 msgid "Days"
 msgstr ""
 
-#: src/admin/class-admin-settings.php:283
+#: src/admin/class-admin-settings.php:286
 msgid "Select the number of days to keep 404 log history"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:299
+msgid "Gift a Donation"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:301
+msgid "Hi, I'm Alan and I built this free plugin to solve problems I had, and I hope it solves your problem too."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:303
+msgid "It would really help me know that others find it useful and a great way of doing this is to gift me a small donation"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:305
+msgid "Gift a donation: select your desired option"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:307
+msgid "My Bitcoin donation wallet"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:309
+msgid "Gift a donation via PayPal"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:311
+msgid "My Bitcoin Cash address"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:313
+msgid "My Ethereum address"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:315
+msgid "My Dogecoin address"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:317
+msgid "Contribute"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:319
+msgid "Contribute to the Open Source Project in other ways"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:321
+msgid "Submit a review"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:323
+msgid "Translate to your language"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:325
+msgid "SUBMIT A REVIEW"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:327
+msgid "If you are happy with the plugin then we would love a review. Even if you are not so happy feedback is always useful, but if you have issues we would love you to make a support request first so we can try and help."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:329
+msgid "SUPPORT FORUM"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:331
+msgid "Providing some translations for a plugin is very easy and can be done via the WordPress system. You can easily contribute to the community and you don't need to translate it all."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:333
+msgid "TRANSLATE INTO YOUR LANGUAGE"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:335
+msgid "As an open source project you are welcome to contribute to the development of the software if you can. The development plugin is hosted on GitHub."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:337
+msgid "CONTRIBUTE ON GITHUB"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:339
+msgid "Get Support"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:341
+msgid "WordPress SUPPORT FORUM"
 msgstr ""
 
 #: src/admin/class-admin-table-404-log.php:17
@@ -133,7 +213,7 @@ msgstr ""
 msgid "404 Log Entries"
 msgstr ""
 
-#: src/admin/class-admin.php:62
+#: src/admin/class-admin.php:72
 msgid "%sPermalinks%s have to be enabled in order for the redirect to work. ( Redirect 404 Error Page to Homepage or Custom Page Plugin )"
 msgstr ""
 
