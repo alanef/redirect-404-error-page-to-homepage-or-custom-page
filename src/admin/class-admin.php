@@ -33,15 +33,6 @@ class Admin {
 		$this->version     = $version;
 	}
 
-	public function redirect_to_settings() {
-		if ( get_option( 'redirect-404-error-page-to-homepage-or-custom-page-activate', false ) ) {
-			delete_option( 'redirect-404-error-page-to-homepage-or-custom-page-activate' );
-			if ( ! isset( $_GET['activate-multi'] ) ) {
-				wp_safe_redirect( admin_url( 'admin.php?page=redirect-404-error-page-to-homepage-or-custom-page' ) );
-				exit;
-			}
-		}
-	}
 	/**
 	 * Display admin notices to help users solve requirements for getting events.
 	 *

@@ -340,33 +340,33 @@ class Admin_Settings extends Admin_Pages {
 			// 20
 			esc_html__( 'WordPress SUPPORT FORUM', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 21
-			esc_html__( 'Hi I\'m Alan and I support the free plugin', 'plugin-dontaion-lib' ),
+			esc_html__( 'Hi I\'m Alan and I support the free plugin', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 22
-			esc_html__( 'for you.  You have been using the plugin for a while now and WordPress has probably been through several updates by now. So I\'m asking if you can help keep this plugin free, by donating a very small amount of cash. If you can that would be a fantastic help to keeping this plugin updated.', 'plugin-donate-lib' ),
+			esc_html__( 'for you.  You have been using the plugin for a while now and WordPress has probably been through several updates by now. So I\'m asking if you can help keep this plugin free, by donating a very small amount of cash. If you can that would be a fantastic help to keeping this plugin updated.', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 23
-			esc_html__( 'Donate via this page', 'plugin-donate-lib' ),
+			esc_html__( 'Donate via this page', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 24
-			esc_html__( 'Remind me later', 'plugin-donate-lib' ),
+			esc_html__( 'Remind me later', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 25
-			esc_html__( 'I have already donated', 'plugin-donate-lib' ),
+			esc_html__( 'I have already donated', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 26
-			esc_html__( 'I don\'t want to donate, dismiss this notice permanently', 'plugin-donate-lib' ),
+			esc_html__( 'I don\'t want to donate, dismiss this notice permanently', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 27
-			esc_html__( 'Hi I\'m Alan and you have been using this plugin', 'plugin-dontaion-lib' ),
+			esc_html__( 'Hi I\'m Alan and you have been using this plugin', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 28
-			esc_html__( 'for a while - that is awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help spread the word and boost my motivation..', 'plugin-donate-lib' ),
+			esc_html__( 'for a while - that is awesome! Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help spread the word and boost my motivation..', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 29
-			esc_html__( 'OK, you deserve it', 'plugin-donate-lib' ),
+			esc_html__( 'OK, you deserve it', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 30
-			esc_html__( 'Maybe later', 'plugin-donate-lib' ),
+			esc_html__( 'Maybe later', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 31
-			esc_html__( 'Already done', 'plugin-donate-lib' ),
+			esc_html__( 'Already done', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 32
-			esc_html__( 'No thanks, dismiss this request', 'plugin-donate-lib' ),
+			esc_html__( 'No thanks, dismiss this request', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 33
-			esc_html__( 'Donate to Support', 'plugin-donate-lib' ),
+			esc_html__( 'Donate to Support', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 34
-			esc_html__( 'Settings', 'plugin-donate-lib' ),
+			esc_html__( 'Settings', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 35
 		);
 

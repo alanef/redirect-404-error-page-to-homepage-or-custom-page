@@ -26,7 +26,6 @@ class Activator {
 	 * @since    1.0.0
 	 */
 	public static function activate() {
-		add_option('redirect-404-error-page-to-homepage-or-custom-page-activate', true);
 		// database set up
 		global $wpdb;
 

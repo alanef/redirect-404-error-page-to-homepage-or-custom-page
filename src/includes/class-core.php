@@ -139,8 +139,6 @@ class Core {
 		// Cron events
 		$admin_cron = new Admin_Cron( $this->get_plugin_name(), $this->get_version() );
 		$this->loader->add_action( 'redirect_404_hp_cp', $admin_cron, 'daily' );
-		add_action( 'init', array( $plugin_admin, 'redirect_to_settings' ) );
-
 	}
 
 	/**
