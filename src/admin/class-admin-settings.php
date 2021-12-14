@@ -368,6 +368,8 @@ class Admin_Settings extends Admin_Pages {
 			// 34
 			esc_html__( 'Settings', 'redirect-404-error-page-to-homepage-or-custom-page' ),
 			// 35
+			esc_html__( 'Help Develop', 'redirect-404-error-page-to-homepage-or-custom-page' ),
+			// 36
 		);
 
 		return $strings;
