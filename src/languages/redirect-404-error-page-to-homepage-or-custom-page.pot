@@ -261,6 +261,10 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+#: src/admin/class-admin-settings.php:371
+msgid "Help Develop"
+msgstr ""
+
 #: src/admin/class-admin-table-404-log.php:17
 msgid "404 Log"
 msgstr ""
