@@ -14,7 +14,7 @@
  * Plugin Name:       Redirect 404 Error Page to Homepage or Custom Page
  * Plugin URI:        http://fullworks.net/wordpress-plugins/redirect-404-error-page-to-homepage-or-custom-page/
  * Description:       Easily redirect 404 error page to homepage or Custom page URL with 404 logs
- * Version:           1.8.0
+ * Version:           1.8.1
  * Author:            Alan Fuller
  * Author URI:        http://fullworks.net/
  * License:           GPL-3.0+

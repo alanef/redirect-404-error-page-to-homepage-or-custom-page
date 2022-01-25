@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alanef/plugindonation_lib.git",
-                "reference": "df97e241535a7e3cf0d9c7216989d634cfcd4d38"
+                "reference": "c6b39587b00c6ada371d28b8200f050099f3a824"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alanef/plugindonation_lib/zipball/df97e241535a7e3cf0d9c7216989d634cfcd4d38",
-                "reference": "df97e241535a7e3cf0d9c7216989d634cfcd4d38",
+                "url": "https://api.github.com/repos/alanef/plugindonation_lib/zipball/c6b39587b00c6ada371d28b8200f050099f3a824",
+                "reference": "c6b39587b00c6ada371d28b8200f050099f3a824",
                 "shasum": ""
             },
             "default-branch": true,
@@ -41,7 +41,7 @@
                 "source": "https://github.com/alanef/plugindonation_lib/tree/master",
                 "issues": "https://github.com/alanef/plugindonation_lib/issues"
             },
-            "time": "2021-12-14T17:07:34+00:00"
+            "time": "2022-01-25T10:06:52+00:00"
         },
         {
             "name": "composer/installers",

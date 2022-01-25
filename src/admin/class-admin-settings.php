@@ -41,7 +41,7 @@ class Admin_Settings extends Admin_Pages {
 			admin_url( 'admin.php?page=redirect-404-error-page-to-homepage-or-custom-page' ),
 			$this->settings_title
 		);
-		add_filter( 'plugindonation_lib_strings', array( $this, 'set_strings' ) );
+		add_filter( 'plugindonation_lib_strings_redirect-404-error-page-to-homepage-or-custom-page', array( $this, 'set_strings' ) );
 		parent::__construct();
 	}
 

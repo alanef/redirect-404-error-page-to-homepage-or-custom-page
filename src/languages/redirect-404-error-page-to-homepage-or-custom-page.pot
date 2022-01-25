@@ -1,4 +1,4 @@
-# Copyright (C) 2021 redirect-404-error-page-to-homepage-or-custom-page
+# Copyright (C) 2022 redirect-404-error-page-to-homepage-or-custom-page
 # This file is distributed under the same license as the redirect-404-error-page-to-homepage-or-custom-page package.
 msgid ""
 msgstr ""
