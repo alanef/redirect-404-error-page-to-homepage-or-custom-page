@@ -14,7 +14,7 @@
  * Plugin Name:       Redirect 404 Error Page to Homepage or Custom Page
  * Plugin URI:        http://fullworks.net/wordpress-plugins/redirect-404-error-page-to-homepage-or-custom-page/
  * Description:       Easily redirect 404 error page to homepage or Custom page URL with 404 logs
- * Version:           1.8.1
+ * Version:           1.8.2
  * Author:            Alan Fuller
  * Author URI:        http://fullworks.net/
  * License:           GPL-3.0+
@@ -39,7 +39,7 @@ if ( ! defined( 'WPINC' ) ) {
 }
 if ( ! function_exists( 'Redirect_404_Error_Page_To_Homepage_Or_Custom_Page\run_Redirect_404_Error_Page_To_Homepage_Or_Custom_Page' ) ) {
 	define( 'REDIRECT_404_ERROR_PAGE_TO_HOMEPAGE_OR_CUSTOM_PAGE_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
-	define( 'REDIRECT_404_ERROR_PAGE_TO_HOMEPAGE_OR_CUSTOM_PAGE_PLUGIN_VERSION', '1.8.0' );
+	define( 'REDIRECT_404_ERROR_PAGE_TO_HOMEPAGE_OR_CUSTOM_PAGE_PLUGIN_VERSION', '1.8.2' );
 	define( 'REDIRECT_404_ERROR_PAGE_TO_HOMEPAGE_OR_CUSTOM_PAGE_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 
 // Include the autoloader so we can dynamically include the classes.
@@ -65,10 +65,14 @@ if ( ! function_exists( 'Redirect_404_Error_Page_To_Homepage_Or_Custom_Page\run_
 		 * This action is documented in includes/class-uninstall.php
 		 *
 		 */
+		/*
 		register_uninstall_hook( __FILE__, array(
 			'\Redirect_404_Error_Page_To_Homepage_Or_Custom_Page\Includes\Uninstall',
 			'uninstall'
 		) );
+		*/
+
+		register_uninstall_hook(__FILE__,'www_un' );
 		/**
 		 * The core plugin class that is used to define internationalization,
 		 * admin-specific hooks, and public-facing site hooks.
@@ -80,5 +84,8 @@ if ( ! function_exists( 'Redirect_404_Error_Page_To_Homepage_Or_Custom_Page\run_
 	run_Redirect_404_Error_Page_To_Homepage_Or_Custom_Page();
 } else {
 	die( esc_html__( 'Cannot execute as the plugin already exists, if you have another version installed deactivate that and try again', 'redirect-404-error-page-to-homepage-or-custom-page' ) );
+}
+function www_un() {
+	error_log('llllll test uninstall');
 }
 

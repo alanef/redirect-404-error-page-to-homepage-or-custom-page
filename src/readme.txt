@@ -3,7 +3,7 @@ Contributors: alanfuller, fullworks
 Donate Link: https://www.paypal.com/donate/?hosted_button_id=UGRBY5CHSD53Q
 Tags: 404 error, 404 page, redirect, redirect 404, redirection, 404, 301, 302, seo, permalink, page not found, homepage, server error
 Tested up to: 5.9
-Stable tag: 1.8.1
+Stable tag: 1.8.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -45,6 +45,9 @@ Did you activate the plugin? And enable the permalinks? Still doesn't work? Sorr
 
 
 == Changelog ==
+= 1.8.2 =
+* fix plugin deletion process
+
 = 1.8.1 =
 * update donation library
 
