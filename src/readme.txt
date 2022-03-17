@@ -1,6 +1,6 @@
 === Redirect 404 Error Page to Homepage or Custom Page with Logs ===
 Contributors: alanfuller, fullworks
-Donate Link: https://www.paypal.com/donate/?hosted_button_id=UGRBY5CHSD53Q
+Donate Link: https://www.buymeacoffee.com/wpdevalan
 Tags: 404 error, 404 page, redirect, redirect 404, redirection, 404, 301, 302, seo, permalink, page not found, homepage, server error
 Tested up to: 5.9
 Stable tag: 1.8.4
