@@ -2,7 +2,7 @@
 Contributors: alanfuller, fullworks
 Donate Link: https://www.buymeacoffee.com/wpdevalan
 Tags: 404 error, 404 page, redirect, redirect 404, redirection, 404, 301, 302, seo, permalink, page not found, homepage, server error
-Tested up to: 5.9
+Tested up to: 6.0
 Stable tag: 1.8.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl.html
